@@ -2,7 +2,7 @@
 This function is used to get the matrix data in OP4 file output by MSC Nastran  
 Input Parameter: filename  
 Output Parameter: matrix_data  
-OLNY 3E23.16 CAN BE USED TEMPORARILY  
+ONLY 3E23.16 DIGITAL TYPE CAN BE USED TEMPORARILY  
 
 MSC Nastran DMAP script demo shown bellow  
  ```
