@@ -1,7 +1,7 @@
 # get_OP4
 This function is used to get the matrix data in OP4 file  
-Input Parameter :filename  
-Output Parameter:matrix_data  
+Input Parameter: filename  
+Output Parameter: matrix_data  
 OLNY 3E23.16 CAN BE USED TEMPORARILY  
 
 DMAP script demo shown bellow  
