@@ -94,8 +94,9 @@ blk_Data = str2double(data_temp_1{8}{1});
 flag_Data = data_temp_1{4}{1};
 matrix_Data = zeros(row_Data,col_Data);
 
+order_total=(m+new-9)/(blk_Data+3);
 
-for col_index=1:col_Data
+for col_index=1:order_total
     start_col_pos = (col_index-1)*(blk_Data+3)+6;
     start_row_pos = (col_index-1)*(blk_Data+3)+7;
     num_row_pos = (col_index-1)*(blk_Data+3)+8;
